@@ -3,11 +3,8 @@ import './App.scss';
 function App() {
   return (
   <div className="container">
-    <div className="background-element">
-    </div>
-    <div className="highlight-window">
-      <div className='highlight-overlay'></div>
-    </div>
+    <img className="photo" src="/Image.jpeg" alt="фото товара">
+    </img>
     <div className="window">
       {/* <ShopItemFunc item={item} /> */}
     </div>
