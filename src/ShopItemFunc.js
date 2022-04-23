@@ -3,10 +3,6 @@ import ItemModel from './ItemModel';
 
 function ShopItemFunc(props) {
   const { item } = props;
-  let validPrice = String(item.price);
-  if (!(validPrice % 1)) {
-    validPrice = validPrice.concat('.', '00');
-  }
 
   return (
     <div className="main-content">
@@ -17,7 +13,7 @@ function ShopItemFunc(props) {
       <div className="purchase-info">
         <div className="price">
           {item.currency}
-          {validPrice}
+          {item.price.toFixed(2)}
         </div>
         <button type="button">Добавить в корзину</button>
       </div>
