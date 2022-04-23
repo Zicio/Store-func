@@ -1,3 +1,9 @@
+[![Build status](https://ci.appveyor.com/api/projects/status/ry15mo5gsd55nmgo?svg=true)](https://ci.appveyor.com/project/Zicio/store-func)
+
+[Ссылка на GP](https://zicio.github.io/Store-func/)
+
+[Ссылка на задание](https://github.com/netology-code/ra16-homeworks/tree/master/components/store-func)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
