@@ -14,6 +14,7 @@ function App() {
   };
 
   const itemModel = new ItemModel(item);
+  const { host } = window.location;
 
   return (
     <div className="container">
@@ -21,7 +22,7 @@ function App() {
         <div className="image-box">
           <img
             className="photo"
-            src={`${process.env.PUBLIC_URL}/image.jpeg`}
+            src={`${host}${process.env.PUBLIC_URL}/image.jpeg`}
             alt="фото товара"
           />
         </div>
