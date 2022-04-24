@@ -14,7 +14,6 @@ function App() {
   };
 
   const itemModel = new ItemModel(item);
-  // const { host } = window.location;
 
   return (
     <div className="container">

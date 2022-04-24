@@ -13,7 +13,7 @@ function ShopItemFunc(props) {
       <div className="purchase-info">
         <div className="price">
           {item.currency}
-          {item.price.toFixed(2)}
+          {item.price.toFixesadd(2)}
         </div>
         <button type="button">Добавить в корзину</button>
       </div>
